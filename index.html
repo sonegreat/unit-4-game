@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Game</title>
+
+    
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="assets/javascript/game.js"></script>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+</head>
+<body>
+
+    
+  <div style="height:160px" class="jumbotron">
+        <h1 class="text-center">Crystal Game </h1>
+        <h2 class="text-center">By Sohaib Jamil</h2>
+      </div>
+    
+      <div class="container">
+    
+        <div class="row">
+          <div class="col-sm">
+            <div class="card mb-2">
+              <h3 class="card-header">Computer Pick</h3>
+              <div class="card-body text-center">
+                <h1 id="computer-pick"></h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+                <div class="card mb-2">
+                  <h3 class="card-header">Result</h3>
+                  <div class="card-body text-left">
+                    <h4 id="wins">Wins: <span id="w-span"></span></h4>
+                    <h4 id="losses">Losses: <span id="l-span"></span></h4>
+                    
+                  </div>
+                </div>
+              </div>
+
+        </div>
+    
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card mb-2">
+              <h3 class="card-header">You Pick</h3>
+              <div class="card-body text-center">
+                    <img id="blue" src="assets/images/blue.jpg" alt="blue" class="img-thumbnail" height="100px" width="100px">
+                    <img id="red" src="assets/images/red.jpg" alt="red" class="img-thumbnail" height="100px" width="100px">
+                    <img id="green" src="assets/images/green.jpg" alt="green" class="img-thumbnail" height="100px" width="100px">
+                    <img id="yellow" src="assets/images/yellow.jpg" alt="yellow" class="img-thumbnail" height="100px" width="100px">
+                    
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card mb-2">
+              <h3 class="card-header">Your Total Score is:</h3>
+              <div class="card-body text-center">
+                <h1 id="userScore"></h1>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+                <div class="col-md-12">
+                  <div class="card mb-2">
+                    <h3 class="card-header">Instrunctions</h3>
+                    <div class="card-body text-center">
+                      <p>You will be given a random number. If you match the number you win, if you go above the number you lose.
+                        Click the Crystal to add a specific amount. Crystal value will change with a new game. </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+      </div>
+
+
+    
+</body>
+</html>
